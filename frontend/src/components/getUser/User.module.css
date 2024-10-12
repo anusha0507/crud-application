@@ -1,0 +1,55 @@
+.userTable{
+    background-color: white;
+    width: 60%;
+    padding: 50px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tableContainer tr{
+    text-align: center;
+}
+
+.addBtn{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: navy;
+    font-weight: 500;
+}
+
+.tableContainer{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.actionBtn button{
+    border: 0;
+    outline: none;
+    padding: 5px 8px;
+    font-weight: 500;
+    background-color: rgb(225, 0, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+.actionBtn button:hover{
+    background-color: rgb(194, 0, 0);
+}
+
+.actionBtn :nth-child(2){
+    text-decoration: none;
+    padding: 7.5px 14px;
+    font-weight: 500;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin: 0 5px;
+}
+
+.actionBtn :nth-child(2):hover{
+    background-color: rgb(0, 105, 0);
+}
