@@ -1,3 +1,5 @@
+About the Project
+
 This is a simple CRUD (Create, Read, Update, Delete) application built using the MERN stack (MongoDB, Express.js, React, Node.js). This project is created for the purpose of learning and gaining a basic understanding of how the MERN stack works together. 
 The app allows users to perform the following actions:
 
