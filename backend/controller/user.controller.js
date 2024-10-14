@@ -11,9 +11,12 @@ export const create = async (req, res) => {
     const userData = new User(req.body);
     const savedData = await userData.save();
 
-    return res.status(200).json(savedData);
+    return res.status(200).json({
+      data: savedData,
+      msg: "User created successfully"
+    });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    return res.status(500).json({ error: "Something went wrong" });
   }
 };
 
@@ -54,7 +57,10 @@ export const update = async (req, res) =>{
     }
 
     const updatedUser = await User.findByIdAndUpdate(id, req.body, {new: true});
-    res.status(200).json(updatedUser);
+    return res.status(200).json({
+      data: updatedUser,
+      msg: "User updated successfully"
+    });
 
   } catch (error) {
     res.status(500).json({error: error.message});
