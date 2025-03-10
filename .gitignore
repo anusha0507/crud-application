@@ -1,6 +1,6 @@
 backend/node_modules/
 frontend/node_modules/
-backend/.env
+backend/.env/
 
 .DS_Store
 Thumbs.db
